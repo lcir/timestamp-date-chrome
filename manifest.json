@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Timestamp to datetime translator",
+  "description": "This extension translate timestamp format into date time",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["popup.js"]
+  },
+  "permissions": ["tabs", "http://*/*", "https://*/*"]
+}
